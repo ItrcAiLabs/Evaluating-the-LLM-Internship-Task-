@@ -52,22 +52,8 @@ The project is implemented with a **modular and extensible structure**, supporti
 * Testing
 * CI/CD integration
 
-## Evaluation Pipeline (For Example)
 
-1. **Prepare the dataset**
-   Ensure the dataset is in XLSX format and matches the expected schema for `lm-eval-harness`.
-
-2. **Run Evaluation**
-   Example command:
-
-   ```bash
-   python scripts/run_eval.py \
-     --model <your-model-name-or-path> \
-     --tasks boolqa_fa \
-     --output results/output.json
-   ```
-
-3. **Metrics Computed**:
+## Metrics Computed:
 
    * Accuracy
    * F1 Score
